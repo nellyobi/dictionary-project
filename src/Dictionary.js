@@ -28,6 +28,7 @@ export default function Dictionary() {
 
 
     return (
+        <section>
     <div className="Dictionary">
         <form onSubmit={search}>
             <input type="search" onChange= {handleKeywordChange} />
@@ -35,5 +36,6 @@ export default function Dictionary() {
         <Results results={results}/>
 
     </div>
+    </section>
     );
 }
